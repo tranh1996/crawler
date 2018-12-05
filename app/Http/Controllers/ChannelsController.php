@@ -21,6 +21,7 @@ class ChannelsController extends Controller
         $this->channelService = $channelService;
       
         $this->middleware('auth');
+        var_dump($a);
     }
 
     /**
